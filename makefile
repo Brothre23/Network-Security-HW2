@@ -13,4 +13,4 @@ server: server.c
 	$(CC) server.c -o server $(LIB)
 
 client: client.c
-	$(CC) client.c -g -o client $(LIB)
+	$(CC) client.c -o client $(LIB)
